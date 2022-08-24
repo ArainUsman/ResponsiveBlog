@@ -1,0 +1,118 @@
+/* CSS Variables */
+:root {
+    --main-bg-color: rgba(30, 110, 190, 0.8);
+    --font1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font2: cursive;
+}
+
+/* utils.css classes */
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.mx-width-1 {
+    width: 80vw;
+}
+
+.mx-width-2 {
+    width: 65vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.direction-col {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.mx-2 {
+    margin: 0 20px;
+}
+
+.px-2 {
+    padding: 0 20px;
+}
+
+.form-input {
+    padding: 4px 6px;
+    border: 2px solid rgb(208, 209, 209);
+    border-radius: 6px;
+    font-family: var(--font2);
+    margin: 0 4px;
+    font-size: 14px;
+    width: 20vw;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-family: var(--font2);
+    margin: 0 4px;
+    font-size: 14px;
+    border: 2px solid rgb(208, 209, 209);
+    background: var(--main-bg-color);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+
+.btn:hover {
+    color: rgb(46, 46, 46);
+    background: none;
+}
+
+.form-box input, textarea{
+    width: 40vw;
+    padding: 6px;
+    margin: 6px 0;
+    border: 2px solid rgb(196, 205, 247);
+    border-radius: 6px;
+    /* resize: vertical; */
+    resize: none;
+    font-size: 1rem;
+}
+
+/* .home-article-img{
+    cursor: pointer;
+} */

@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    /* height: 50px; */
+    /* background-color: dodgerblue; */
+    /* background: #ffffff; */
+    /* position: sticky;
+    top: 0; */
+    font-family: var(--font1);
+    padding: 10px 0;
+}
+
+/* .nav-left {
+    font-size: 1.2rem;
+} */
+
+.nav-left span {
+    font-size: 1.6rem;
+}
+
+/* .nav-left span img{
+    width: 30px;
+    filter: invert();
+    border-radius: 50%;
+    padding-top: 4px;
+} */
+
+.nav-left ul {
+    margin-left: 40px;
+    /* font-family: var(--font2); */
+}
+
+.nav-left ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    padding: 0 10px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    /* transition: all 0.3s ease-in; */
+}
+
+.nav-left ul li a.active {
+    color: rgb(90, 90, 90);
+}
+
+.nav-left ul li a:hover {
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+}
+
+/* .nav-right{
+    
+} */
+
+.content {
+    height: 100%;
+    /* background-color: rgb(104, 165, 245); */
+    /* padding: 0 8px; */
+    margin-top: 12px;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background: url('4.JPG') center/cover;
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.content-left {
+    font-family: var(--font2);
+    /* width: 70%; */
+    padding: 30px;
+}
+
+.content-left h1{
+    margin: 4px 0;
+}
+
+.content-left p{
+    margin: 6px 0;
+}
+
+.content-right {
+    /* width: 30%; */
+    padding: 30px;
+}
+
+.content-right img {
+    height: 250px;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    /* padding: 20px; */
+    /* z-index: -1; */
+}
+
+.home-articles {
+    /* height: 400px; */
+    background-color: rgb(238 242 249);
+    padding-top: 12px;
+    position: relative;
+}
+
+.year-box {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    /* background-color: brown; */
+    right: 50px;
+    top: 60px;
+    text-align: center;
+}
+
+.year-box div{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.home-article {
+    /* margin-top: 12px; */
+    margin: 20px;
+}
+
+/* .home-article img {
+    height: 150px;
+} */
+
+.home-article-content {
+    align-self: center;
+    padding: 0 20px;
+}
+
+.home-article-content div {
+    font-size: 0.9rem;
+}
+
+.home-article-content span {
+    font-size: 0.8rem;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    /* color: var(--main-bg-color); */
+    color: black;
+}
+
+.home-article-content a h3 {
+    font-size: 1rem;
+}
+
+footer {
+    /* height: 40px; */
+    background: var(--main-bg-color);
+    color: white;
+    padding: 10px 0;
+    /* position: absolute;
+    width: 100%;
+    bottom: 0; */
+}

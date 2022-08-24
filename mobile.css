@@ -1,0 +1,141 @@
+@media screen and (max-width:1030px) {
+
+    /* * {
+        background: skyblue;
+    } */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-left {
+        margin: 4px 0;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    .nav-right {
+        margin: 6px 0;
+    }
+
+    .nav-left ul {
+        margin: 6px 0;
+    }
+
+    .nav-left ul li {
+        padding: 0 6px;
+    }
+
+    .content-right {
+        padding: 10px;
+    }
+
+    .content-right img {
+        height: 180px;
+        border: 2px solid dodgerblue;
+        border-radius: 50%;
+    }
+
+    .content-left h1 {
+        margin: 2px 0;
+        font-size: 1.5rem;
+    }
+
+    .content-left p {
+        margin: 6px 0;
+        font-size: 1.2rem;
+    }
+
+    .year-box {
+        right: 10px;
+        top: 10px;
+    }
+
+}
+/* -------------------------- */
+@media screen and (max-width:900px) {
+
+    /* *{
+        background: slateblue;
+    } */
+    .content-right {
+        display: none;
+    }
+
+    .year-box {
+        display: flex;
+        top: 6px;
+        /* margin: 0; */
+        /* padding: 0 20px; */
+        /* right: 50px; */
+        left: 40vw;
+    }
+
+    .year-box div {
+        display: flex;
+        align-items: flex-start;
+        font-size: 0.7rem;
+        margin: 4px 0;
+        padding: 2px 4px;
+    }
+
+    .home-articles h2 {
+        font-size: 1.1rem;
+    }
+
+    .home-article {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* .home-article img {} */
+
+    .contact-content h1 {
+        margin: 20px 0;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .form-box input,
+    textarea {
+        width: 65vw;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+/* ......................... */
+@media screen and (max-width:750px) {
+    .row {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+    .author-info div {
+        padding: 1px 0;
+        font-size: 0.7rem;
+    }
+
+    .social {
+        /* align-self: flex-end; */
+        padding: 0;
+        margin: 0;
+    }
+
+    /* .social img{
+        width: 17px;
+    } */
+
+    .post-img img {
+        height: auto;
+    }
+
+    .adjust-year {
+        display: flex;
+        position: static;
+        height: auto;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 4px 0;
+    }
+}
